@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79070D881A9E5A2A001874CC /* XRAYHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79070D871A9E5A2A001874CC /* XRAYHandler.swift */; };
+		79070D8A1A9E6A7A001874CC /* MRIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79070D891A9E6A7A001874CC /* MRIHandler.swift */; };
 		791EF5821A7BDB220089D11D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791EF5811A7BDB220089D11D /* AppDelegate.swift */; };
 		791EF5841A7BDB220089D11D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791EF5831A7BDB220089D11D /* Images.xcassets */; };
 		791EF5871A7BDB220089D11D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791EF5851A7BDB220089D11D /* MainMenu.xib */; };
 		791EF5931A7BDB220089D11D /* Labs___Radiology_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791EF5921A7BDB220089D11D /* Labs___Radiology_2_0Tests.swift */; };
+		7928D94E1A9FB363008A9422 /* NUCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928D94D1A9FB363008A9422 /* NUCHandler.swift */; };
+		7928D9501A9FB8BD008A9422 /* CardioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928D94F1A9FB8BD008A9422 /* CardioHandler.swift */; };
+		7928D9521A9FD635008A9422 /* REFHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928D9511A9FD635008A9422 /* REFHandler.swift */; };
+		79642C4C1A9F969600EADDB8 /* CTHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79642C4B1A9F969600EADDB8 /* CTHandler.swift */; };
+		79642C4E1A9FA01D00EADDB8 /* USNDHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79642C4D1A9FA01D00EADDB8 /* USNDHandler.swift */; };
+		79A0DA5C1A829CD6005646DB /* MAMHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0DA5B1A829CD6005646DB /* MAMHandler.swift */; };
+		79D401E31B55D1760053D9B0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D401E21B55D1760053D9B0 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79070D871A9E5A2A001874CC /* XRAYHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XRAYHandler.swift; sourceTree = "<group>"; };
+		79070D891A9E6A7A001874CC /* MRIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRIHandler.swift; sourceTree = "<group>"; };
 		791EF57C1A7BDB220089D11D /* Labs & Radiology 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labs & Radiology 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		791EF5801A7BDB220089D11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791EF5811A7BDB220089D11D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +43,13 @@
 		791EF58C1A7BDB220089D11D /* Labs & Radiology 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Labs & Radiology 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		791EF5911A7BDB220089D11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		791EF5921A7BDB220089D11D /* Labs___Radiology_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Labs___Radiology_2_0Tests.swift"; sourceTree = "<group>"; };
+		7928D94D1A9FB363008A9422 /* NUCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUCHandler.swift; sourceTree = "<group>"; };
+		7928D94F1A9FB8BD008A9422 /* CardioHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioHandler.swift; sourceTree = "<group>"; };
+		7928D9511A9FD635008A9422 /* REFHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REFHandler.swift; sourceTree = "<group>"; };
+		79642C4B1A9F969600EADDB8 /* CTHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTHandler.swift; sourceTree = "<group>"; };
+		79642C4D1A9FA01D00EADDB8 /* USNDHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USNDHandler.swift; sourceTree = "<group>"; };
+		79A0DA5B1A829CD6005646DB /* MAMHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAMHandler.swift; sourceTree = "<group>"; };
+		79D401E21B55D1760053D9B0 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +92,18 @@
 			isa = PBXGroup;
 			children = (
 				791EF5811A7BDB220089D11D /* AppDelegate.swift */,
+				79A0DA5B1A829CD6005646DB /* MAMHandler.swift */,
+				7928D9511A9FD635008A9422 /* REFHandler.swift */,
+				7928D94F1A9FB8BD008A9422 /* CardioHandler.swift */,
+				79642C4D1A9FA01D00EADDB8 /* USNDHandler.swift */,
+				7928D94D1A9FB363008A9422 /* NUCHandler.swift */,
+				79642C4B1A9F969600EADDB8 /* CTHandler.swift */,
+				79070D891A9E6A7A001874CC /* MRIHandler.swift */,
+				79070D871A9E5A2A001874CC /* XRAYHandler.swift */,
 				791EF5831A7BDB220089D11D /* Images.xcassets */,
 				791EF5851A7BDB220089D11D /* MainMenu.xib */,
 				791EF57F1A7BDB220089D11D /* Supporting Files */,
+				79D401E21B55D1760053D9B0 /* Functions.swift */,
 			);
 			path = "Labs & Radiology 2.0";
 			sourceTree = "<group>";
@@ -150,11 +177,14 @@
 		791EF5741A7BDB220089D11D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Fulgent Wake";
 				TargetAttributes = {
 					791EF57B1A7BDB220089D11D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VY6BVT84SC;
 					};
 					791EF58B1A7BDB220089D11D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -205,7 +235,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A0DA5C1A829CD6005646DB /* MAMHandler.swift in Sources */,
+				79070D8A1A9E6A7A001874CC /* MRIHandler.swift in Sources */,
+				79642C4E1A9FA01D00EADDB8 /* USNDHandler.swift in Sources */,
+				79D401E31B55D1760053D9B0 /* Functions.swift in Sources */,
+				7928D94E1A9FB363008A9422 /* NUCHandler.swift in Sources */,
 				791EF5821A7BDB220089D11D /* AppDelegate.swift in Sources */,
+				79642C4C1A9F969600EADDB8 /* CTHandler.swift in Sources */,
+				7928D9501A9FB8BD008A9422 /* CardioHandler.swift in Sources */,
+				7928D9521A9FD635008A9422 /* REFHandler.swift in Sources */,
+				79070D881A9E5A2A001874CC /* XRAYHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +298,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -273,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -310,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -320,9 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Labs & Radiology 2.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -331,9 +374,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Labs & Radiology 2.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -353,6 +399,7 @@
 				);
 				INFOPLIST_FILE = "Labs & Radiology 2.0Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Labs & Radiology 2.0.app/Contents/MacOS/Labs & Radiology 2.0";
 			};
@@ -369,6 +416,7 @@
 				);
 				INFOPLIST_FILE = "Labs & Radiology 2.0Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Labs & Radiology 2.0.app/Contents/MacOS/Labs & Radiology 2.0";
 			};
@@ -393,6 +441,7 @@
 				791EF5981A7BDB220089D11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		791EF5991A7BDB220089D11D /* Build configuration list for PBXNativeTarget "Labs & Radiology 2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +450,7 @@
 				791EF59B1A7BDB220089D11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
